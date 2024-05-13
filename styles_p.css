@@ -1,0 +1,165 @@
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  margin: auto;
+  overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sun {
+  height: 1000px;
+  width:1000px;
+ 
+  background: radial-gradient(circle, #141e3d 0%,  rgba(255, 14, 14, 0) 70%);
+	z-index:-1;
+	background-repeat: no-repeat;
+	background-position: center;
+
+  position: absolute;
+  
+}
+
+#nav-bar {
+  position: absolute;
+  top: 10vh;
+  right: 100px;
+  padding-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+nav {
+  color: #5b6a80;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: flex;
+  flex-direction: c;
+  padding-top: 5px;
+}
+
+nav a {
+  color: #5b6a80;
+  text-decoration: none;
+}
+
+nav {
+  /* Background color of the navigation */
+  padding: 10px;
+}
+
+/* Styling for the navigation links */
+nav a {
+  color: #5b6a80; /* Default text color */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Adjust spacing */
+  display: inline-block;
+  position: relative; /* Position relative to create a reference for the line */
+}
+
+/* Styling for the lines before each navigation link */
+nav a::before {
+  content: ""; /* Empty content */
+  position: absolute; /* Position absolute to place the line */
+  left: -40px; /* Position line to the left of navigation link */
+  bottom: 13px; /* Position line at the bottom of navigation link */
+  width: 30px; /* Initial width of the line */
+  height: 2px; /* Height of the line */
+  background-color: #5b6a80; /* Initial background color of the line */
+  transition: width 0.2s ease; /* Transition effect for the width */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  color: #e2e8f0;
+  transform: translateX(30px);
+
+  /* Text color on hover */
+}
+
+/* Hover effect for lines before navigation links */
+nav a:hover::before {
+  width: 60px; /* Increase width of the line on hover */
+  background-color: #e2e8f0; /* Change background color of the line on hover */
+  transform: translateX(-30px);
+}
+
+nav ul li:nth-child(3) a {
+  color: #e2e8f0;
+  transform: translateX(30px);
+}
+nav ul li:nth-child(3) a::before {
+  width: 60px;
+  background-color: #e2e8f0;
+  transform: translateX(-30px);
+}
+
+.fab {
+  font-size: 24px;
+  margin: auto;
+  color: #5b6a80;
+  padding: 10px;
+}
+#contacts {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.fab:hover {
+  color: #e2e8f0;
+}
+
+.content {
+  text-align: center;
+  margin: auto;
+  padding-top: 250px;
+  color: #e2e8f0;
+}
+
+.content .line {
+  /* Styles for the line */
+  border: none;
+  border-bottom: 5px solid #5b6a80; /* Add a 1px solid black line */
+  margin-bottom: 20px; /* Add some space below the line */
+  width: 30px;
+}
+
+.content h1 {font-family: Raleway;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.content p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.project{height:400px;width:80vw;max-width: 1200px; margin:100px auto;border-radius: 5px; display: flex; /* Use flexbox */
+ 
+  align-items: center; /* Center the image vertically */
+;
+}
+
+.project_anchor{color: #e2e8f0;text-decoration: none;}
+
+.project img{width:40%;padding: 30px; } 
+
+h2 { text-decoration: none; font-family: raleway; font-size: 30px;}
+
+.project:hover{background-color: rgba(255, 255, 255, 0.06);}
+.project:hover h2 {color: aqua;}
+
+.project_description{font-family: poppins; font-weight: 200;}
