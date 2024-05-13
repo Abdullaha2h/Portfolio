@@ -35,6 +35,6 @@ If you have any questions, suggestions, or feedback regarding my HTML/CSS projec
 
 ## Contact
 
-You can reach me via email at [your@email.com](abdullaha2hh2a@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-abdullah-08879822a/).
+You can reach me via email at [Gmail](abdullaha2hh2a@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-abdullah-08879822a/).
 
 Thank you for visiting my HTML/CSS portfolio repository!
