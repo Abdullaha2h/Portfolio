@@ -7,15 +7,16 @@ body {
 }
 
 .sun {
-  height: 1000px;
-  width: 1000px;
-
+  height: 600px;
+  width: 600px;
+  
   background: radial-gradient(circle, #141e3d 0%, rgba(255, 14, 14, 0) 70%);
   z-index: -1;
   background-repeat: no-repeat;
   background-position: center;
-
+  
   position: absolute;
+  transform: scale(200%);
 }
 
 #nav-bar {
