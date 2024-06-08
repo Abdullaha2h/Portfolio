@@ -150,3 +150,27 @@ nav ul li:first-child a::before {
 .fab:hover {
   color: #e2e8f0;
 }
+
+@media only screen and (max-width: 600px) {
+  #welcome-section {
+      width: 100%;
+      padding-right:10px;
+  }
+  
+
+  #welcome-section h1 {
+      font-size: 6vw;
+  }
+
+  #welcome-section h2 {
+    font-size: 4vw;
+}
+
+  #welcome-section p {
+      font-size: 2vw;
+      width:70vw;
+  }
+
+  #nav-bar{transform: scale(70%);top:40vh;}
+}
+

@@ -93,11 +93,11 @@ nav a:hover::before {
   transform: translateX(-30px);
 }
 
-nav ul li:nth-child(2) a {
+nav ul li:nth-child(4) a {
   color: #e2e8f0;
   transform: translateX(30px);
 }
-nav ul li:nth-child(2) a::before {
+nav ul li:nth-child(4) a::before {
   width: 60px;
   background-color: #e2e8f0;
   transform: translateX(-30px);
@@ -181,4 +181,38 @@ input::placeholder,textarea::placeholder{color:#e2e8f074;
 }
 
 .submit-button button:hover {color:#55D5D5}
+
+
+
+@media only screen and (max-width: 600px) {
+  #welcome-section {
+      width: 100%;
+      padding-right:10px;
+  }
+  
+  #nav-bar{transform: scale(70%);top:10px;right:30px;}
+  .content h1 {
+      font-size: 6vw;
+      margin-bottom: 0px;
+  }
+
+  #welcome-section h2 {
+    font-size: 4vw;
+}
+
+  .content p {
+      font-size: 2vw;
+      width:70vw;
+  }
+  .about_me p,label, input, textarea,input::placeholder,textarea::placeholder  {
+    font-size:2.5vw;
+  }
+  
+  .about_me{display: flex;flex-direction: column;justify-content:  center;align-items: center;}
+
+  .about_me .detail{background-color: rgba(255, 255, 255, 0.06);order:2;margin:auto;height:40vh;}
+
+  }
+
+ 
 
