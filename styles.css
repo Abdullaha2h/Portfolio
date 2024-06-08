@@ -176,5 +176,8 @@ nav ul li:first-child a::before {
   }
 
   #nav-bar{transform: scale(70%);top:40vh;}
+  #contacts {
+
+    top: 80vh;}
 }
 
