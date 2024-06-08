@@ -184,6 +184,6 @@ h2 { text-decoration: none; font-family: raleway; font-size: 30px;}
       font-size: 2vw;
       width:70vw;
   }
- .project{display:flex;flex-direction: column;font-size: 2vw;}
+ .project{display:flex;flex-direction: column;font-size: 2vw;padding:20px;}
  h2{font-size: 5vw;}
  .project img{width:60vw;}}
