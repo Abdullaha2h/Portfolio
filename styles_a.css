@@ -163,7 +163,7 @@ nav ul li:nth-child(2) a::before {
 
 .about_me .skills{width:20vw;display:flex; justify-content:  center;align-items: center;margin:20px;}
 
-.skills img{width:30vw;padding-left: 5vw;}
+.skills img{width:30vw;}
 .skills img:hover{width:35vw;
  }
 

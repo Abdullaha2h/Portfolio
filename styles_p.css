@@ -179,7 +179,7 @@ h2 { text-decoration: none; font-family: raleway; font-size: 30px;}
       margin-bottom: 0px;
   }
 
- 
+  .project{background-color: rgba(255, 255, 255, 0.06);}
 
   .content p {
       font-size: 2vw;

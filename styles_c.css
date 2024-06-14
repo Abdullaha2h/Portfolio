@@ -182,7 +182,9 @@ input::placeholder,textarea::placeholder{color:#e2e8f074;
 }
 
 .submit-button button:hover {color:#55D5D5}
-
+.submit-button.submitted {
+  color: #BCFD49;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -213,7 +215,9 @@ input::placeholder,textarea::placeholder{color:#e2e8f074;
 
   .about_me .detail{background-color: rgba(255, 255, 255, 0.06);order:2;margin:auto;height:40vh;}
 
-  }
-
  
+
+.form{ background-color:rgba(255, 255, 255, 0.06) ;}
+
+}
 
