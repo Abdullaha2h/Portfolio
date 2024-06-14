@@ -194,7 +194,7 @@ nav ul li:nth-child(2) a::before {
   #nav-bar{transform: scale(70%);top:10px;right:30px;}
   .about_me{display: flex;flex-direction: column;justify-content:  center;align-items: center;}
 
-  .about_me .detail{background-color: rgba(255, 255, 255, 0.06);order:2;margin:auto;height:40vh;}
+  .about_me .detail{background-color: rgba(255, 255, 255, 0.06);order:2;margin:auto;height:33vh;}
 
   .skills img{top:10px;order:1;width:60vw;height:auto;margin:auto; display:flex; }
 
