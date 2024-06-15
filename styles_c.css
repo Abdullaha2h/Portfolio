@@ -217,7 +217,7 @@ input::placeholder,textarea::placeholder{color:#e2e8f074;
 
  
 
-.form{ background-color:rgba(255, 255, 255, 0.06);padding:50px;height:55vh;width:60vw;
-  border-radius: 5px;margin: 50px auto; ;
+.form{ background-color:rgba(255, 255, 255, 0.06);padding:50px;height:55vh;
  }
 
+}
